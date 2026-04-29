@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+nav{
+    background-color: gray;
+    text-align: center;
+    padding: 10;
+}
+
+nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+
+section{
+    padding: 30px 20px;
+    background-color: whitesmoke;
+}
+
+section:nth-child(even){
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: rgb(122, 121, 121);
+}
+
+ul{
+    max-width: 300px;
+    margin: auto;
+}
+
+li{
+    padding: 5px;
+    color: white;
+}
+
+.project{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 500px;
+    background-color: whitesmoke;
+}
+
+form{
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+input[input="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
